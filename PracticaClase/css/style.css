@@ -1,0 +1,89 @@
+body{
+    background-color: #222;
+}
+
+.main{
+    justify-content: center;
+    display: flex;
+}
+
+.card
+{
+    border: 2px solid rgb(241, 209, 209);
+    width: 420px;
+    height: 690px;
+    border-radius: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background-color: rgb(127, 161, 191);
+}
+
+.photo1{
+
+    height: 290px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo2{
+
+    height: 120px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(175, 114, 114);
+    justify-content: space-evenly;
+}
+
+.pic{
+
+    height: 90px;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.photo3{
+    border: 1px solid rgb(255, 255, 255);
+    height: 600px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#messi{
+
+    height: auto;
+    width: 130px;
+    border-radius: 20px;
+}
+
+#messi2{
+
+    height: 90px;
+    width: auto;
+    border-radius: 20px;
+}
+
+#messi3{
+
+    height: 90px;
+    width: auto;
+    border-radius: 20px;
+}
+
+#messii{    
+    height: 290px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#text{
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
